@@ -10,6 +10,6 @@ print("Appp creada")
 def home():
     return render_template('home.html')
 
-@app.route('/update')
+@app.route('/login')
 def update_page():
-    return render_template('todo.html')
+    return render_template('login.html')
